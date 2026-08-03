@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendation</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+
+            <i class="fa-solid fa-earth-americas"></i>
+
+            <h2>Travel Recommendation</h2>
+
+        </div>
+
+        <ul>
+
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="about.html">About Us</a>
+            </li>
+
+            <li>
+                <a href="contact.html">Contact Us</a>
+            </li>
+
+        </ul>
+
+        <div class="search-container">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search beaches, temples or countries..."
+            >
+
+            <button id="searchBtn">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                Search
+
+            </button>
+
+            <button id="clearBtn">
+
+                <i class="fa-solid fa-trash"></i>
+
+                Clear
+
+            </button>
+
+        </div>
+
+    </nav>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero">
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+
+        <div class="social-icons">
+
+            <a href="#">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-twitter"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-youtube"></i>
+            </a>
+
+        </div>
+
+        <div class="text">
+
+            <h1>
+
+                EXPLORE THE WORLD
+
+            </h1>
+
+            <p>
+
+                Discover incredible destinations around the world.
+                Search for beautiful beaches, historic temples,
+                and amazing countries to plan your next unforgettable trip.
+
+            </p>
+
+            <button class="explore-btn">
+
+                Explore Now
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= SEARCH RESULTS ================= -->
+
+<section class="results-section">
+
+    <h2 id="resultTitle">
+
+        Travel Recommendations
+
+    </h2>
+
+    <div id="results" class="results-grid">
+
+        <!-- JavaScript inserts cards here -->
+
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <p>
+
+        © 2026 Travel Recommendation.
+        All rights reserved.
+
+    </p>
+
+</footer>
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script src="js/travel_recommendation.js"></script>
+
+</body>
+</html>

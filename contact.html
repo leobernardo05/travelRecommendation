@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | Travel Recommendation</title>
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+
+                <i class="fa-solid fa-earth-americas"></i>
+
+                <h2>Travel Recommendation</h2>
+
+            </div>
+
+            <ul>
+
+                <li>
+
+                    <a href="index.html">Home</a>
+
+                </li>
+
+                <li>
+
+                    <a href="about.html">About Us</a>
+
+                </li>
+
+                <li>
+
+                    <a href="contact.html" class="active">Contact Us</a>
+
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="page-banner">
+
+        <div class="overlay"></div>
+
+        <div class="banner-content">
+
+            <h1>Contact Us</h1>
+
+            <p>
+
+                We'd love to hear from you! Fill out the form below and our
+                team will get back to you as soon as possible.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="contact-section">
+
+        <div class="contact-container">
+
+            <!-- Left -->
+
+            <div class="contact-info">
+
+                <h2>Get in Touch</h2>
+
+                <p>
+
+                    Have questions about a destination?
+
+                    Need travel recommendations?
+
+                    Send us a message!
+
+                </p>
+
+                <div class="contact-item">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <span>Garanhuns - PE, Brazil</span>
+
+                </div>
+
+                <div class="contact-item">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <span>contact@travelrecommendation.com</span>
+
+                </div>
+
+                <div class="contact-item">
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    <span>+55 (87) 99999-9999</span>
+
+                </div>
+
+            </div>
+
+            <!-- Right -->
+
+            <div class="contact-form">
+
+                <form id="contactForm">
+
+                    <label for="name">
+
+                        Name
+
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Enter your name"
+                        required>
+
+                    <label for="email">
+
+                        Email
+
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter your email"
+                        required>
+
+                    <label for="message">
+
+                        Message
+
+                    </label>
+
+                    <textarea
+                        id="message"
+                        rows="8"
+                        placeholder="Write your message..."
+                        required></textarea>
+
+                    <button type="submit">
+
+                        <i class="fa-solid fa-paper-plane"></i>
+
+                        Send Message
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+
+            © 2026 Travel Recommendation.
+
+            All rights reserved.
+
+        </p>
+
+    </footer>
+
+    <!-- ================= JS ================= -->
+
+    <script>
+
+        const form = document.getElementById("contactForm");
+
+        form.addEventListener("submit", function (event) {
+
+            event.preventDefault();
+
+            alert("Thank you! Your message has been sent successfully.");
+
+            form.reset();
+
+        });
+
+    </script>
+
+</body>
+
+</html>
